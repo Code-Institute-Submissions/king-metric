@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  /* Colors */
+  --brand-color: #EF4135;
+  --brand-text-color: #50545a;
+  --brand-title-color: #0055A4;
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* Text */
+  --text-p: 1rem;
+  --text-h1: 3rem;
+  --hero-h1: 5rem;
+  --text-h2: 2rem;
+  --text-h3: 1.75rem;
+  --text-h4: 1.5rem;
+
+  /* Images and Icons */
+  --hero-logo: 6rem;
+}
+
+/* ------------------------- Main Elements */
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+p {
+  font-size: var(--text-p);
+}
+
+h1 {
+  font-size: var(--text-h1);
+}
+
+h2 {
+  font-size: var(--text-h2);
+}
+
+h3 {
+  font-size: var(--text-h3);
+}
+
+h4 {
+  font-size: var(--text-h4);
+}
+
+header {
+  z-index: 10;
+  -webkit-box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.21);
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.21);
+  background: #fff;
+}
