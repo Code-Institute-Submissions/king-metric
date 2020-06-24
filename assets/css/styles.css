@@ -194,3 +194,58 @@ footer .footer-logo a:hover {
 .btn-light {
   width: 8rem;
 }
+
+/* For Smartphones */
+
+@media (max-width: 420px) {
+  :root {
+    /* Text */
+    --text-p: 0.9rem;
+    --text-h1: 2rem;
+    --hero-h1: 3rem;
+    --text-h2: 1.5rem;
+    --text-h3: 1.25rem;
+    --text-h4: 1.2rem;
+
+    /* Images & Logos */
+    --hero-logo: 4rem;
+  }
+
+  .footer-copyright {
+    font-size: 0.8rem;
+  }
+}
+
+/* For Tablets */
+
+@media (max-width: 991px) {
+  :root {
+    /* Text */
+    --text-p: 0.9rem;
+    --text-h1: 2rem;
+    --hero-h1: 3rem;
+    --text-h2: 1.5rem;
+    --text-h3: 1.25rem;
+    --text-h4: 1.2rem;
+
+    /* Images & Logos */
+    --hero-logo: 4rem;
+  }
+
+  .footer-logo {
+    margin-bottom: 1rem;
+  }
+
+  .button-message {
+    text-align: center;
+  }
+
+  .topnav {
+    text-align: center;
+  }
+
+  .topnav .btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
