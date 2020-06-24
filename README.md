@@ -23,11 +23,12 @@
 This project presents information about the Metric System, where it came from, who is still using the Imperial System and a conversion tool, from Imperial to Metric only.
 
 One of the purposes of this project is to demonstrate the developer skills with JS. You will be able to see this in three sections of the website:
-* The converter.
-* The Google Maps API, where it shows the countries still using the Imperial System, and
-* The contact form, where EMailJS is used to send the messages.
 
-*This is for educational purposes only.*
+- The converter.
+- The Google Maps API, where it shows the countries still using the Imperial System, and
+- The contact form, where EMailJS is used to send the messages.
+
+_This is for educational purposes only._
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -37,24 +38,19 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ### 1.1 Who is this website for? 👨‍🎓👩‍🎓
 
-
 ### 1.2 What is it that they want to achieve? 🎯
-
 
 ### 1.3 How my project is the best way to help them achieve those things? 👨‍💻
 
-
 ### 1.4 Website Wireframes 💻📱
 
-
-  _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
+_<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
 <span id="features"></span>
 
 ## 2. Features ⚙
 
-
-  _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
+_<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
 <span id="technologies"></span>
 
@@ -113,9 +109,7 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ### 4.2 Testing User Stories 🙆‍♀️
 
-
 ### 4.3 Bugs & Problems 🐛
-
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -143,9 +137,7 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ### 6.1 Code Snippets 🧬
 
-
 ### 6.2 Media 📸
-
 
 ### 6.3 Acknowledgements 🙏
 
