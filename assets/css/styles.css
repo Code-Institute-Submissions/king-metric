@@ -138,6 +138,53 @@ header {
   color: var(--color-white);
 }
 
+/* Hero Section */
+
+.hero-index {
+  height: 92vh;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  font-size: var(--hero-h1);
+  margin-bottom: 1.5rem;
+}
+
+.hero h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero h3 {
+  font-weight: 300;
+}
+
+.hero .btn {
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+.hero .btn-index {
+  width: 12rem;
+  font-size: var(--text-h4);
+}
+
+/* Origins Section */
+
+.origins img {
+  width: 100%;
+  border-radius: 0.25rem;
+}
+
 /* ------------------------- Footer */
 
 .bg-footer {
@@ -193,13 +240,6 @@ footer .footer-logo a:hover {
 
 .btn-light {
   width: 8rem;
-}
-
-/* Origins Section */
-
-.origins img {
-  width: 100%;
-  border-radius: 0.25rem;
 }
 
 /* For Smartphones */
