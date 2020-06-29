@@ -187,6 +187,13 @@ header {
   border-radius: 0.25rem;
 }
 
+/* The Others */
+
+#map {
+  height: 25rem;
+  width: 80%;
+}
+
 /* ------------------------- Footer */
 
 .bg-footer {
