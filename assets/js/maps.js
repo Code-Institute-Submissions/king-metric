@@ -15,21 +15,33 @@ function initMap() {
       position: { lat: 37.0902, lng: -95.7129 },
       icon: "https://i.imgur.com/b6MthM1.png",
       title: "United States of America",
-      content: "<h1>This is the USA</h1>",
+      content:
+        "<h5>The United States of America</h5>" +
+        "<p><strong>Population</strong>: 328.2 million (2019)</p>" +
+        "<p><strong>Capital</strong>: Washington, D.C.</p>" +
+        '<p><a title="USA Wikipedia Page" href="https://en.wikipedia.org/wiki/United_States" target="_blank" rel="noopener">Wikipedia Page</a></p>',
     },
     {
       // Myanmar
       position: { lat: 21.9162, lng: 95.956 },
       icon: "https://i.imgur.com/LnP6Vv7.png",
       title: "Myanmar",
-      content: "<h1>This is Myanmar</h1>",
+      content:
+        "<h5>Myanmar</h5>" +
+        "<p><strong>Population</strong>: 53.5 million (2017)</p>" +
+        "<p><strong>Capital</strong>: Naypyidaw</p>" +
+        '<p><a title="Myanmar Wikipedia Page" href="https://en.wikipedia.org/wiki/Myanmar" target="_blank" rel="noopener">Wikipedia Page</a></p>',
     },
     {
       // Liberia
       position: { lat: 6.4281, lng: -9.4295 },
       icon: "https://i.imgur.com/JXc3mj7.png",
       title: "Liberia",
-      content: "<h1>This is Liberia</h1>",
+      content:
+        "<h5>Liberia</h5>" +
+        "<p><strong>Population</strong>: 5.07 million (2015)</p>" +
+        "<p><strong>Capital</strong>: Monrovia</p>" +
+        '<p><a title="Liberia Wikipedia Page" href="https://en.wikipedia.org/wiki/Liberia" target="_blank" rel="noopener">Wikipedia Page</a></p>',
     },
   ];
 
