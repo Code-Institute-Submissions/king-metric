@@ -194,6 +194,10 @@ header {
   width: 80%;
 }
 
+.maps-api {
+  border-radius: 0.3rem;
+}
+
 /* ------------------------- Footer */
 
 .bg-footer {
