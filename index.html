@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="icon"
+      href="https://i.imgur.com/D02LcMj.png"
+      type="image/png"
+      sizes="16x16"
+    />
+    <meta name="Description" content="The metric system is king!" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="assets/js/convert.js"></script>
+    <script src="assets/js/maps.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link rel="icon" href="https://i.imgur.com/D02LcMj.png" type="image/png" sizes="16x16" />
-	<meta name="Description" content="The metric system is king!" />
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-	<link rel="stylesheet" href="assets/css/styles.css" />
-	<script src="assets/js/convert.js"></script>
-	<script src="assets/js/maps.js"></script>
-	<script src="assets/js/sendEmail.js"></script>
+    <title>King Metric | Long Live The King</title>
+  </head>
 
-	<title>King Metric | Long Live The King</title>
-</head>
-
-<body>
-	<!-- Header / Navigation -->
-	<header>
-		<div class="container">
-			<!-- Navigation main structure code from https://bootsnipp.com/snippets/vlXGB and adapted to the project -->
-			<nav class="navbar navbar-expand-lg navbar-light bg-white">
-				<a class="navbar-brand" href="index.html">
-					<img
+  <body>
+    <!-- Header / Navigation -->
+    <header>
+      <div class="container">
+        <!-- Navigation main structure code from https://bootsnipp.com/snippets/vlXGB and adapted to the project -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <a class="navbar-brand" href="index.html">
+            <img
               src="https://i.imgur.com/4YKJgNM.png"
               alt="King Metric Logo"
               height="50"
           /></a>
-					<button
+          <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -42,236 +51,257 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav ml-auto topnav">
-							<li class="nav-item">
-								<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#origins">Origins</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#theOthers">The Others</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#contact">Contact</a>
-							</li>
-							<li class="nav-item">
-								<a class="btn btn-primary" href="#convert">Convert</a>
-							</li>
-						</ul>
-					</div>
-			</nav>
-		</div>
-	</header>
-	<!-- /. Header / Navigation -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto topnav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#origins">Origins</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#theOthers">The Others</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary" href="#convert">Convert</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- /. Header / Navigation -->
 
-	<!-- Hero Section -->
-	<section class="hero hero-index text-light">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 hero-logo">
-					<h1>Meet King Metric</h1>
-				</div>
-				<div class="col-12 hero-message">
-					<h2>
-						The metre is defined as the length of the path travelled by light
-						in a vacuum in of a second.
-					</h2>
-				</div>
-				<div class="col-12">
-					<h3>
-						Only three countries in the world still (mostly or officially) use
-						the imperial system of measurements.
-					</h3>
-				</div>
-				<div class="col-sm-3 hero-button">
-					<a href="#convert" class="btn btn-primary btn-index" aria-label="Convert Button">Convert</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /. Hero Section-->
+    <!-- Hero Section -->
+    <section class="hero hero-index text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 hero-logo">
+            <h1>Meet King Metric</h1>
+          </div>
+          <div class="col-12 hero-message">
+            <h2>
+              The metre is defined as the length of the path travelled by light
+              in a vacuum in of a second.
+            </h2>
+          </div>
+          <div class="col-12">
+            <h3>
+              Only three countries in the world still (mostly or officially) use
+              the imperial system of measurements.
+            </h3>
+          </div>
+          <div class="col-sm-3 hero-button">
+            <a
+              href="#convert"
+              class="btn btn-primary btn-index"
+              aria-label="Convert Button"
+              >Convert</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /. Hero Section-->
 
-	<!-- Origins -->
-	<section class="origins bg-dark text-light" id="origins">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 mt-5 text-center mb-4">
-					<h3>Origins</h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-12 col-md-4 mb-5">
-					<img
+    <!-- Origins -->
+    <section class="origins bg-dark text-light" id="origins">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 mt-5 text-center mb-4">
+            <h3>Origins</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-4 mb-5">
+            <img
               src="assets/media/france_measure.jpg"
               alt="Old image of French metric measurement"
             />
           </div>
-					<div class="col-sm-12 col-md-8">
-						<p>
-							On the eve of the French Revolution, France had an estimated
-							quarter of a million different units of measurement. In many
-							cases, the value of a unit differed from town to town and even
-							from trade to trade even though they might have the same name.
-							While specific standards, such as the “pied du roi” (the King’s
-							foot) had a degree of pre-eminence and were used by savants
-							(scientists), many traders used their own measuring devices. This
-							gave scope for fraud and hindered commerce and industry. The
-							metric system was designed to replace this confusion with a
-							radical new system with fixed values.
-						</p>
+          <div class="col-sm-12 col-md-8">
+            <p>
+              On the eve of the French Revolution, France had an estimated
+              quarter of a million different units of measurement. In many
+              cases, the value of a unit differed from town to town and even
+              from trade to trade even though they might have the same name.
+              While specific standards, such as the “pied du roi” (the King’s
+              foot) had a degree of pre-eminence and were used by savants
+              (scientists), many traders used their own measuring devices. This
+              gave scope for fraud and hindered commerce and industry. The
+              metric system was designed to replace this confusion with a
+              radical new system with fixed values.
+            </p>
 
-						<p>
-							In England, Magna Carta in 1215 decreed that “there shall be one
-							unit of measure throughout the realm”. However, France and the
-							rest of Europe had a multitude of measurement units. The
-							differences were like those between the United States customary
-							units and United Kingdom imperial units – that measure liquids – a
-							US pint consists of 16 US fluid ounces. In comparison, an imperial
-							pint is 20 UK fluid ounces, and the US fluid ounce is about 4%
-							larger than the UK fluid ounce. Differences such as these occurred
-							across Europe.
-						</p>
+            <p>
+              In England, Magna Carta in 1215 decreed that “there shall be one
+              unit of measure throughout the realm”. However, France and the
+              rest of Europe had a multitude of measurement units. The
+              differences were like those between the United States customary
+              units and United Kingdom imperial units – that measure liquids – a
+              US pint consists of 16 US fluid ounces. In comparison, an imperial
+              pint is 20 UK fluid ounces, and the US fluid ounce is about 4%
+              larger than the UK fluid ounce. Differences such as these occurred
+              across Europe.
+            </p>
 
-						<p>
-							Between 1790 and 1800, during the French Revolution, and with the
-							backing of Louis XVI, the system of weights and measures was
-							reformed. The new method of measurement had a rational,
-							mathematical basis. It was part of the radical effort to sweep
-							away old traditions and conventions and replace them with
-							something new and better. The French philosopher, the Marquis de
-							Condorcet, who was one of those entrusted by Louis XVI to overhaul
-							the system of measurement, characterised the metric system as “for
-							all people for all time”.
-						</p>
-					</div>
-				</div>
-			</div>
-	</section>
-	<!-- /. Origins -->
+            <p>
+              Between 1790 and 1800, during the French Revolution, and with the
+              backing of Louis XVI, the system of weights and measures was
+              reformed. The new method of measurement had a rational,
+              mathematical basis. It was part of the radical effort to sweep
+              away old traditions and conventions and replace them with
+              something new and better. The French philosopher, the Marquis de
+              Condorcet, who was one of those entrusted by Louis XVI to overhaul
+              the system of measurement, characterised the metric system as “for
+              all people for all time”.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /. Origins -->
 
-	<!-- The Others -->
-	<section class="theOthers" id="theOthers">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 mt-5 text-center mb-4">
-					<h3>The Others</h3>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-12 maps-api mb-3" id="map"></div>
-			</div>
-			<div class="row">
-				<div class="col-12 text-left mb-5">
-					<p>
-						If you ever measured anything in your life, it is most likely you
-						expressed the value in one of the two standards used in the world
-						today: imperial or metric. The difference between the two is how
-						they approach naming the values.
-					</p>
-					<p>
-						The imperial system was first brought to life in 1824 when the
-						British Weights and Measures Act was set as a standard.
-					</p>
-					<p>
-						Now, this might surprise you, but there are only three countries
-						in the world that are still officially using the imperial system:
-						The United States of America, Myanmar, and Liberia. However, in
-						Myanmar and Liberia, the metric system has been used parallel with
-						imperial, and both countries are on their way to completely switch
-						on using only one, which would be the metric system.
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /. The Others -->
+    <!-- The Others -->
+    <section class="theOthers" id="theOthers">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-5 text-center mb-4">
+            <h3>The Others</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 maps-api mb-3" id="map"></div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-left mb-5">
+            <p>
+              If you ever measured anything in your life, it is most likely you
+              expressed the value in one of the two standards used in the world
+              today: imperial or metric. The difference between the two is how
+              they approach naming the values.
+            </p>
+            <p>
+              The imperial system was first brought to life in 1824 when the
+              British Weights and Measures Act was set as a standard.
+            </p>
+            <p>
+              Now, this might surprise you, but there are only three countries
+              in the world that are still officially using the imperial system:
+              The United States of America, Myanmar, and Liberia. However, in
+              Myanmar and Liberia, the metric system has been used parallel with
+              imperial, and both countries are on their way to completely switch
+              on using only one, which would be the metric system.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /. The Others -->
 
-	<!-- Convert -->
-	<section class="convert" id="convert">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 convert-title"></div>
-			</div>
-			<div class="row">
-				<div class="col-12 convert-subtitle"></div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6 property"></div>
-				<div class="col-sm-6 property-selector"></div>
-				<div class="col-sm-6 unit"></div>
-				<div class="col-sm-6 unit-selector"></div>
-				<div class="col-sm-6 value"></div>
-				<div class="col-sm-6 value-input"></div>
-				<div class="col-sm-6" id="metric-unit"></div>
-				<div class="col-sm-6" id="unit-converted"></div>
-			</div>
-		</div>
-	</section>
-	<!-- /. Convert -->
+    <!-- Convert -->
+    <section class="convert" id="convert">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 convert-title"></div>
+        </div>
+        <div class="row">
+          <div class="col-12 convert-subtitle"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 property"></div>
+          <div class="col-sm-6 property-selector"></div>
+          <div class="col-sm-6 unit"></div>
+          <div class="col-sm-6 unit-selector"></div>
+          <div class="col-sm-6 value"></div>
+          <div class="col-sm-6 value-input"></div>
+          <div class="col-sm-6" id="metric-unit"></div>
+          <div class="col-sm-6" id="unit-converted"></div>
+        </div>
+      </div>
+    </section>
+    <!-- /. Convert -->
 
-	<!-- Contact -->
-	<section class="contact" id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 contact-title"></div>
-			</div>
-			<div class="row">
-				<div class="col-12 contact-subtitle"></div>
-			</div>
-			<div class="row">
-				<div class="col-12 form"></div>
-			</div>
-		</div>
-	</section>
-	<!-- /. Contact -->
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 contact-title"></div>
+        </div>
+        <div class="row">
+          <div class="col-12 contact-subtitle"></div>
+        </div>
+        <div class="row">
+          <div class="col-12 form"></div>
+        </div>
+      </div>
+    </section>
+    <!-- /. Contact -->
 
-	<!-- Footer -->
-	<footer class="page-footer font-small bg-footer text-white">
-		<div class="container">
-			<div class="row text-center d-flex justify-content-center">
-				<div class="col-md-2 footer-logo">
-					<a href="index.html" rel="noopener"><img
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-footer text-white">
+      <div class="container">
+        <div class="row text-center d-flex justify-content-center">
+          <div class="col-md-2 footer-logo">
+            <a href="index.html" rel="noopener"
+              ><img
                 src="https://i.imgur.com/9sNZGfT.png"
                 alt="King Metric Logo"
                 height="50"
             /></a>
-				</div>
-				<div class="col-sm-offset-3 col-sm-2 col-md-offset-0 col-md-1">
-					<a href="#origins" rel="noopener">Origins</a>
-				</div>
-				<div class="col-sm-offset-0 col-sm-2 col-md-2">
-					<a href="#theOthers">The Others</a>
-				</div>
-				<div class="col-sm-2 col-md-1">
-					<a href="#contact" rel="noopener">Contact</a>
-				</div>
-				<div class="col-xs-7 col-sm-12 col-md-offset-1 col-md-4 button-message"></div>
-				<div class="col-xs-5 col-sm-12 col-md-2">
-					<a class="btn btn-light" href="#convert" aria-label="Convert Button">Convert</a>
-				</div>
-				<div class="col-xs-12 footer-copyright py-3">
-					Content source for 'Origins' section:
-					<a href="https://en.wikipedia.org/wiki/Introduction_to_the_metric_system" target="_blank"
-						rel="noopener">"Introduction to the metric system" - Wikipedia.</a>
-					<br /><br />
+          </div>
+          <div class="col-sm-offset-3 col-sm-2 col-md-offset-0 col-md-1">
+            <a href="#origins" rel="noopener">Origins</a>
+          </div>
+          <div class="col-sm-offset-0 col-sm-2 col-md-2">
+            <a href="#theOthers">The Others</a>
+          </div>
+          <div class="col-sm-2 col-md-1">
+            <a href="#contact" rel="noopener">Contact</a>
+          </div>
+          <div
+            class="col-xs-7 col-sm-12 col-md-offset-1 col-md-4 button-message"
+          ></div>
+          <div class="col-xs-5 col-sm-12 col-md-2">
+            <a class="btn btn-light" href="#convert" aria-label="Convert Button"
+              >Convert</a
+            >
+          </div>
+          <div class="col-xs-12 footer-copyright py-3">
+            Content source for 'Origins' section:
+            <a
+              href="https://en.wikipedia.org/wiki/Introduction_to_the_metric_system"
+              target="_blank"
+              rel="noopener"
+              >"Introduction to the metric system" - Wikipedia.</a
+            >
+            <br /><br />
             Content source for 'The Others' section:
-					<a href="https://www.worldatlas.com/articles/which-countries-use-the-imperial-system.html"
-						target="_blank" rel="noopener">"Which countries use the Imperial System?" - WorldAtlas.</a>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- /. Footer -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<script async defer
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANq28mUYa_Ql6y-XjqEdej-8hf6cR2pRQ&callback=initMap">
-	</script>
-</body>
-
+            <a
+              href="https://www.worldatlas.com/articles/which-countries-use-the-imperial-system.html"
+              target="_blank"
+              rel="noopener"
+              >"Which countries use the Imperial System?" - WorldAtlas.</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /. Footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANq28mUYa_Ql6y-XjqEdej-8hf6cR2pRQ&callback=initMap"
+    ></script>
+  </body>
 </html>
