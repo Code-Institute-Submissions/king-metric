@@ -13,7 +13,7 @@ function initMap() {
     {
       //United States
       position: { lat: 37.0902, lng: -95.7129 },
-      icon: "https://i.imgur.com/b6MthM1.png",
+      icon: "assets/media/flag_usa.png",
       title: "United States of America",
       content:
         "<h5>The United States of America</h5>" +
@@ -24,7 +24,7 @@ function initMap() {
     {
       // Myanmar
       position: { lat: 21.9162, lng: 95.956 },
-      icon: "https://i.imgur.com/LnP6Vv7.png",
+      icon: "assets/media/flag_myanmar.png",
       title: "Myanmar",
       content:
         "<h5>Myanmar</h5>" +
@@ -35,7 +35,7 @@ function initMap() {
     {
       // Liberia
       position: { lat: 6.4281, lng: -9.4295 },
-      icon: "https://i.imgur.com/JXc3mj7.png",
+      icon: "assets/media/flag_liberia.png",
       title: "Liberia",
       content:
         "<h5>Liberia</h5>" +
