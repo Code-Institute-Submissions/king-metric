@@ -16,5 +16,7 @@ function sendMail(contactForm) {
 
   document.getElementById("contactForm").reset();
 
+  alert("Thanks you for testing my MS2 Contact Form! 👍🏼 😁");
+
   return false; // To block from loading a new page
 }
