@@ -180,6 +180,28 @@ header {
   font-size: var(--text-h4);
 }
 
+/* Fraction styling code adapted from https://stackoverflow.com/questions/7525977/how-to-write-fraction-value-using-html */
+
+span.frac {
+  display: inline-block;
+  font-size: 50%;
+  text-align: center;
+}
+span.frac > sup {
+  display: block;
+  border-bottom: 1px solid;
+  font: inherit;
+  margin-top: 0.6rem;
+}
+span.frac > span {
+  display: none;
+}
+span.frac > sub {
+  display: block;
+  font: inherit;
+  margin-top: -0.6rem;
+}
+
 /* Origins Section */
 
 .origins img {
