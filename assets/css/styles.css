@@ -323,6 +323,10 @@ footer .footer-logo a:hover {
   .footer-copyright {
     font-size: 0.8rem;
   }
+
+  .origins img {
+    margin-bottom: -1rem;
+  }
 }
 
 /* For Tablets */
@@ -361,5 +365,9 @@ footer .footer-logo a:hover {
   .topnav .btn {
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .origins img {
+    margin-bottom: -1rem;
   }
 }
