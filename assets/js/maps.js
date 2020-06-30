@@ -16,10 +16,10 @@ function initMap() {
       icon: "assets/media/flag_usa.png",
       title: "United States of America",
       content:
-        "<h5>The United States of America</h5>" +
-        "<p><strong>Population</strong>: 328.2 million (2019)</p>" +
-        "<p><strong>Capital</strong>: Washington, D.C.</p>" +
-        '<p><a title="USA Wikipedia Page" href="https://en.wikipedia.org/wiki/United_States" target="_blank" rel="noopener">Wikipedia Page</a></p>',
+        '<h5 style="color:black;">The United States of America</h5>' +
+        '<p style="color:black;"><strong>Population</strong>: 328.2 million (2019)</p>' +
+        '<p style="color:black;"><strong>Capital</strong>: Washington, D.C.</p>' +
+        '<p style="color:black;"><a title="USA Wikipedia Page" href="https://en.wikipedia.org/wiki/United_States" target="_blank" rel="noopener">Wikipedia Page</a></p>',
     },
     {
       // Myanmar
@@ -27,10 +27,10 @@ function initMap() {
       icon: "assets/media/flag_myanmar.png",
       title: "Myanmar",
       content:
-        "<h5>Myanmar</h5>" +
-        "<p><strong>Population</strong>: 53.5 million (2017)</p>" +
-        "<p><strong>Capital</strong>: Naypyidaw</p>" +
-        '<p><a title="Myanmar Wikipedia Page" href="https://en.wikipedia.org/wiki/Myanmar" target="_blank" rel="noopener">Wikipedia Page</a></p>',
+        '<h5 style="color:black;">Myanmar</h5>' +
+        '<p style="color:black;"><strong>Population</strong>: 53.5 million (2017)</p>' +
+        '<p style="color:black;"><strong>Capital</strong>: Naypyidaw</p>' +
+        '<p style="color:black;"><a title="Myanmar Wikipedia Page" href="https://en.wikipedia.org/wiki/Myanmar" target="_blank" rel="noopener">Wikipedia Page</a></p>',
     },
     {
       // Liberia
@@ -38,10 +38,10 @@ function initMap() {
       icon: "assets/media/flag_liberia.png",
       title: "Liberia",
       content:
-        "<h5>Liberia</h5>" +
-        "<p><strong>Population</strong>: 5.07 million (2015)</p>" +
-        "<p><strong>Capital</strong>: Monrovia</p>" +
-        '<p><a title="Liberia Wikipedia Page" href="https://en.wikipedia.org/wiki/Liberia" target="_blank" rel="noopener">Wikipedia Page</a></p>',
+        '<h5 style="color:black;">Liberia</h5>' +
+        '<p style="color:black;"><strong>Population</strong>: 5.07 million (2015)</p>' +
+        '<p style="color:black;"><strong>Capital</strong>: Monrovia</p>' +
+        '<p style="color:black;"><a title="Liberia Wikipedia Page" href="https://en.wikipedia.org/wiki/Liberia" target="_blank" rel="noopener">Wikipedia Page</a></p>',
     },
   ];
 
