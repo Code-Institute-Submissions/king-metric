@@ -65,8 +65,8 @@ header {
   background-color: var(--brand-color);
   border-color: var(--color-white);
   color: var(--color-white);
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 65, 0, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(255, 65, 0, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(239, 65, 53, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(239, 65, 53, 0.5);
 }
 
 .btn-primary:not(:disabled):not(.disabled):active {
@@ -76,8 +76,8 @@ header {
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 65, 0, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(255, 65, 0, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(239, 65, , 53 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(239, 65, 53, 0.5);
 }
 
 .btn-primary:hover {
@@ -231,6 +231,11 @@ span.frac > sub {
   padding-right: 1rem;
 }
 
+.convert hr {
+  width: 50%;
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+}
+
 /* Contact */
 
 .contact-btn {
@@ -326,6 +331,10 @@ footer .footer-logo a:hover {
 
   .origins img {
     margin-bottom: -1rem;
+  }
+
+  .converter p {
+    text-align: center;
   }
 }
 
