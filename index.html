@@ -239,8 +239,8 @@
             <label for="properties">Select your property:</label>
           </div>
           <div class="col-sm-6 property-selector">
-            <select id="properties" onchange="UnitConverter()"">
-              <option value="length" selected>Length</option>
+            <select id="properties" onchange="PropertyConverter()">
+              <option value="length">Length</option>
               <option value="area">Area</option>
               <option value="volume">Volume</option>
               <option value="weigth">Weigth</option>
@@ -253,7 +253,7 @@
           </div>
           <div class="col-sm-6 unit-selector" id="unitSelector">
             <select id="units" onchange="UnitConverter()">
-              <option value="inch" selected>Inch</option>
+              <option value="inch">Inch</option>
               <option value="foot">Foot</option>
               <option value="yard">Yard</option>
               <option value="mile">Mile</option>
@@ -269,14 +269,14 @@
               id="inputValue"
               type="number"
               placeholder="1799"
-              oninput="UnitConverter()"
-              onchange="UnitConverter()"
+              oninput="ValueConverter()"
+              onchange="ValueConverter()"
             />
           </div>
         </div>
         <div class="row mb-5">
           <div class="col-sm-6 metric-unit font-weight-bold">
-            <label id="metricUnit">Centimetres:</label>
+            <label id="metricUnit">Centimetre(s):</label>
           </div>
           <div class="col-sm-6">
             <p id="unitConverted">Conversion result</p>
