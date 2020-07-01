@@ -3,8 +3,8 @@ function ValueConverter() {
   const unit = document.getElementById("units").value;
 
   if (!enteredValue) {
-    document.getElementById("unitConverted").innerText =
-      "Please, enter a value to be converted! 🙏🏼";
+    document.getElementById("unitConverted").innerHTML =
+      "<p>Please, enter a value to be converted! 🙏🏼</p>";
   } else {
     switch (unit) {
       // Unit switch for Length
