@@ -249,6 +249,10 @@ span.frac > sub {
   text-align: right;
 }
 
+#metricUnit {
+  color: var(--brand-color);
+}
+
 /* Contact */
 
 .contact-btn {
