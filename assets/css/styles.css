@@ -242,6 +242,10 @@ span.frac > sub {
   border-radius: 0.2rem;
 }
 
+.convert input {
+  width: 7rem;
+}
+
 .converter .property,
 .converter .unit,
 .converter .value,
