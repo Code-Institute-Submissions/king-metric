@@ -253,6 +253,10 @@ span.frac > sub {
   color: var(--brand-color);
 }
 
+#unitConverted p {
+  font-size: 1.1rem;
+}
+
 /* Contact */
 
 .contact-btn {
@@ -355,6 +359,10 @@ footer .footer-logo a:hover {
   .converter .unit,
   .converter .value,
   .converter .metric-unit {
+    text-align: center;
+  }
+
+  .convert input {
     text-align: center;
   }
 }
