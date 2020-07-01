@@ -261,6 +261,11 @@ span.frac > sub {
   font-size: 1.1rem;
 }
 
+.convert-btn {
+  width: 10rem;
+  height: 3rem;
+}
+
 /* Contact */
 
 .contact-btn {

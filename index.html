@@ -26,9 +26,11 @@
         emailjs.init("user_ZgpiRcnFxi0mWGuVEjNFY");
       })();
     </script>
+
     <script src="assets/js/propertyConvert.js"></script>
     <script src="assets/js/unitConvert.js"></script>
     <script src="assets/js/valueConvert.js"></script>
+    <script src="assets/js/resetConverter.js"></script>
     <script src="assets/js/maps.js"></script>
     <script src="assets/js/sendEmail.js"></script>
 
@@ -276,12 +278,23 @@
             />
           </div>
         </div>
-        <div class="row mb-5">
+        <div class="row mb-2">
           <div class="col-sm-6 metric-unit font-weight-bold">
             <label id="metricUnit">Centimetre(s):</label>
           </div>
           <div class="col-sm-6" id="unitConverted">
             <p>Please, enter a value to be converted! 🙏🏼</p>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <button
+              type="button"
+              onclick="ResetConverter()"
+              class="btn btn-primary convert-btn"
+            >
+              Reset Converter
+            </button>
           </div>
         </div>
       </div>
