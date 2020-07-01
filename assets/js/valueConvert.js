@@ -7,7 +7,7 @@ function ValueConverter() {
       "<p>Please, enter a value to be converted! 🙏🏼</p>";
   } else {
     switch (unit) {
-      // Unit switch for Length
+      // Conversion for Length
       case "inch":
         document.getElementById("unitConverted").innerHTML = `<p>${(
           enteredValue * 2.54
@@ -29,7 +29,7 @@ function ValueConverter() {
         ).toFixed(2)}&nbsp; 🎉</p>`;
         break;
 
-      //Unit switch for Area
+      //Conversion for Area
       case "sqinch":
         document.getElementById("unitConverted").innerHTML = `<p>${(
           enteredValue * 6.4516
@@ -51,7 +51,7 @@ function ValueConverter() {
         ).toFixed(2)}&nbsp; 🎉</p>`;
         break;
 
-      //Unit switch for Volume
+      //Conversion for Volume
       case "cuinch":
         document.getElementById("unitConverted").innerHTML = `<p>${(
           enteredValue * 16.387
@@ -73,7 +73,7 @@ function ValueConverter() {
         ).toFixed(2)}&nbsp; 🎉</p>`;
         break;
 
-      //Unit switch for Weigth
+      //Conversion for Weigth
       case "ounce":
         document.getElementById("unitConverted").innerHTML = `<p>${(
           enteredValue * 28.35

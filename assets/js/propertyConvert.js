@@ -1,6 +1,7 @@
 function PropertyConverter() {
   const property = document.getElementById("properties").value;
 
+  //Switch to read property and determine the unit options
   switch (property) {
     case "length":
       document.getElementById("units").innerHTML =
