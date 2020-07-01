@@ -236,6 +236,19 @@ span.frac > sub {
   border-top: 3px solid rgba(0, 0, 0, 0.1);
 }
 
+.convert select,
+.convert input {
+  border: 0.1rem solid #aaa;
+  border-radius: 0.2rem;
+}
+
+.converter .property,
+.converter .unit,
+.converter .value,
+.converter .metric-unit {
+  text-align: right;
+}
+
 /* Contact */
 
 .contact-btn {
@@ -333,7 +346,11 @@ footer .footer-logo a:hover {
     margin-bottom: -1rem;
   }
 
-  .converter p {
+  .converter,
+  .converter .property,
+  .converter .unit,
+  .converter .value,
+  .converter .metric-unit {
     text-align: center;
   }
 }
