@@ -234,40 +234,52 @@
       </div>
       <div class="container converter">
         <hr />
-        <div class="row">
+        <div class="row mb-2">
           <div class="col-sm-6 property text-right font-weight-bold">
             <label for="properties">Select your property:</label>
           </div>
           <div class="col-sm-6 property-selector">
-            <select id="properties">
+            <select id="properties" onchange="UnitConverter()"">
               <option value="length" selected>Length</option>
               <option value="area">Area</option>
-              <option value="Volume">Volume</option>
-              <option value="Weigth">Weigth</option>
+              <option value="volume">Volume</option>
+              <option value="weigth">Weigth</option>
             </select>
           </div>
+        </div>
+        <div class="row mb-2">
           <div class="col-sm-6 unit text-right font-weight-bold">
             <label for="units">Select your unit:</label>
           </div>
           <div class="col-sm-6 unit-selector" id="unitSelector">
-            <select id="units">
-              <option value="inches" selected>Inches</option>
-              <option value="feet">Feet</option>
-              <option value="yards">Yards</option>
-              <option value="miles">Miles</option>
+            <select id="units" onchange="UnitConverter()">
+              <option value="inch" selected>Inch</option>
+              <option value="foot">Foot</option>
+              <option value="yard">Yard</option>
+              <option value="mile">Mile</option>
             </select>
           </div>
+        </div>
+        <div class="row mb-2">
           <div class="col-sm-6 value text-right font-weight-bold">
-            <p>Enter your value:</p>
+            <label>Enter your value:</label>
           </div>
           <div class="col-sm-6 value-input" id="valueInput">
-            <p>Value input field</p>
+            <input
+              id="inputValue"
+              type="number"
+              placeholder="1799"
+              oninput="UnitConverter()"
+              onchange="UnitConverter()"
+            />
           </div>
-          <div class="col-sm-6 text-right font-weight-bold" id="metricUnit">
-            <p>Centimetres:</p>
+        </div>
+        <div class="row mb-5">
+          <div class="col-sm-6 text-right font-weight-bold">
+            <p id="metricUnit">Centimetres:</p>
           </div>
-          <div class="col-sm-6 mb-5" id="unitConverted">
-            <p>Conversion result</p>
+          <div class="col-sm-6">
+            <p id="unitConverted">Conversion result</p>
           </div>
         </div>
       </div>
