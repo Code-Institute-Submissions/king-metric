@@ -232,7 +232,7 @@ span.frac > sub {
 }
 
 .convert hr {
-  width: 50%;
+  width: 75%;
   border-top: 3px solid rgba(0, 0, 0, 0.1);
 }
 
