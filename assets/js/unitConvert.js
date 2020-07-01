@@ -52,6 +52,7 @@ function UnitConverter() {
       document.getElementById("metricUnit").innerText = "Tonne(s):";
       break;
   }
+
   ValueConverter();
 
   return;
