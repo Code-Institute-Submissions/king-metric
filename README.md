@@ -36,13 +36,59 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ## 1. UX 💻
 
-### 1.1 Who is this website for? 👨‍🎓👩‍🎓
+### 1.1 Who is this website for? 👨‍👩‍
+
+This website is for users interested in knowing a bit more about the Metric System and need to convert measurements from the Imperial System.
 
 ### 1.2 What is it that they want to achieve? 🎯
 
+Users visit the website for different reasons. They want to:
+
+- Learn a bit more about the history of the Metric System.
+- Learn who is still officially using the Imperial System.
+- Convert Imperial measurements to the Metric System.
+- Get in touch with the developer behind the project.
+
 ### 1.3 How my project is the best way to help them achieve those things? 👨‍💻
 
+The King Metric website provides all the necessary tools to convert basic Imperial measurements to the Metric System. It also provides a bit of history on the Metric System and who are the countries that to this day are still officially using the Imperial System.
+
+#### 1.3.1 Learn a bit more about the history of the Metric System. 📚
+
+The website provides:
+
+- A "Origins" section in which background information is provided about the Metric System.
+- Inside the website's footer, a direct link to the <a href="https://en.wikipedia.org/wiki/Introduction_to_the_metric_system" rel="noopener" target="_blank">Wikipedia page</a> where the content for the "Origins" section was taken.
+
+#### 1.3.2 Learn who is still officially using the Imperial System. 📚
+
+The website provides:
+
+- A "The Others" section in which information and a map are provided about the countries who are still officially using the Imperial System.
+- Inside the website's footer, a direct link to the <a href="https://www.worldatlas.com/articles/which-countries-use-the-imperial-system.html" rel="noopener" target="_blank">Webpage</a> where the content for the "The Others" section was taken.
+
+#### 1.3.3 Convert Imperial measurements to the Metric System. 🧮
+
+The website provides:
+
+- A "Convert" section in which users can easily convert Imperial units to the Metric System.
+- The measuring properties considered for this project are Length, Area, Volume and Weight.
+- For each property, the project provides four options of units to be converted. For example, for Length, we offer Inch, Foot, Yard and Mile.
+- A "Reset Converter" button is provided to clear the converter for other conversions.
+
+#### 1.3.4 Get in touch with the developer behind the project. 📧
+
+The website provides:
+
+- A "Contact" section in which users can get in touch with the developer. The form asks for Name, Email and a Message.
+- This is a fully operational contact form, which includes an automatic email sent to the user after submission.
+
 ### 1.4 Website Wireframes 💻📱
+
+Below you will find the website's wireframes. These were generated using Balsamiq. There are two versions of the wireframes. Choose your option:
+
+- Wireframes for the <a href="https://drive.google.com/file/d/1bCmX4HrQt4wVbTsTArFjPO-Wf3a5Vp_f/view?usp=sharing" rel="noopener" target="_blank">desktop & mobile version in PDF</a>.
+- Wireframes for the <a href="https://drive.google.com/file/d/1sfSxslhGBw88hK4E2KWCFZT2NFAwRp1U/view?usp=sharing" rel="noopener" target="_blank">desktop & mobile version in Balsamiq</a>.
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
