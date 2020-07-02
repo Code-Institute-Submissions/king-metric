@@ -201,9 +201,18 @@ Once the project had finished, and the Github repository was live using Github p
 
 #### 4.2.3 Results. 📊
 
-Since the
+Since the testing was ongoing, the results of it were many during that period. Most of the issues were related to code not doing what the developer wanted:
+
+- **CSS rules not working**: CDT used to review the reasons, detect the root of the problem and apply the fix back to the CSS rules.
+- **JS code not working**: Console used to review the potential reasons. Once possible solutions were detected, they were tested with the code and eventually fix the problem.
 
 #### 4.2.4 Outcomes.
+
+The eventual outcome of each testing was detecting issues, evaluating the reasons and finding the solutions.
+
+Once the root of each issue is detected, then the applied solution is coded into the corresponding code, whether that's the HTML, CSS, JS or API.
+
+**With each error detected and fixed, the developer's knowledge increased.**
 
 ### 4.3 Testing User Stories 🙆‍♀️
 
