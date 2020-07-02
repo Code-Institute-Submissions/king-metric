@@ -23,12 +23,11 @@
 This project presents information about the Metric System, where it came from, who is still using the Imperial System and a conversion tool, from Imperial to Metric only.
 
 One of the purposes of this project is to demonstrate the developer skills with JS. You will be able to see this in three sections of the website:
+* The converter.
+* The Google Maps API, where it shows the countries still using the Imperial System, and
+* The contact form, where EMailJS is used to send the messages.
 
-- The converter.
-- The Google Maps API, where it shows the countries still using the Imperial System, and
-- The contact form, where EMailJS is used to send the messages.
-
-_This is for educational purposes only._
+*This is for educational purposes only.*
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -96,6 +95,14 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ## 2. Features ⚙
 
+- **Navigation bar:** It allows users to easily access all the sections of the webpage and content on the King Metric's website, at all times. It also provides a direct button taking them to the "Convert" section.
+- **Home section:** It welcomes users with a quick pitch about King Metric and those still using the Imperial System. It also provides a big button taking users to the "Convert" section.
+- **Footer:** It allows users to easily access all the sections of the webpage and content on the King Metric's website, at all times. It also provides a direct button taking them to the "Convert" section. Additionally, it provides users with direct links to the websites where the content was taken from for the "Origins" and "The Others" section.
+- **Origins section:** It allows users to learn a bit about the history of the Metric System and where it came.
+- **The Others section:** It enables users to learn a bit about who is still officially using the Imperial System.
+- **Convert section:** It enables users to convert Imperial units to the Metric System. It provides conversion for units in Length, Area, Volume and Weight. It also provides a reset button, to clear the converter for new calculations if necessary.
+- **Contact section:** It allows users to get in touch with the developer through a simple and fully functional contact form.
+
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
 <span id="technologies"></span>
@@ -134,6 +141,8 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 - <a href="https://autoprefixer.github.io/" rel="noopener" target="_blank">**Auto-Prefixer**</a>
   - The project used the **Auto-Prefixer** to add CSS compatibility with other browsers.
+- <a href="https://hackmd.io/" rel="noopener" target="_blank">**HackMD**</a>
+  - The project used the **HackMD** to edit the README file.
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -155,7 +164,9 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ### 4.2 Testing User Stories 🙆‍♀️
 
+
 ### 4.3 Bugs & Problems 🐛
+
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -183,7 +194,9 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ### 6.1 Code Snippets 🧬
 
+
 ### 6.2 Media 📸
+
 
 ### 6.3 Acknowledgements 🙏
 
