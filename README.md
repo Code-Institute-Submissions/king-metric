@@ -154,6 +154,10 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
   - The project used the **Auto-Prefixer** to add CSS compatibility with other browsers.
 - <a href="https://hackmd.io/" rel="noopener" target="_blank">**HackMD**</a>
   - The project used the **HackMD** to edit the README file.
+- <a href="https://developers.google.com/maps/documentation" rel="noopener" target="_blank">**Google Maps API**</a>
+  - The project used the **Google Maps API** to provide the interactive Google Maps.
+- <a href="https://www.emailjs.com/" rel="noopener" target="_blank">**EmailJS**</a>
+  - The project used the **EmailJS** to enable a functional contact form.
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
