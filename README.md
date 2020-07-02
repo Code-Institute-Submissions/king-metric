@@ -89,6 +89,17 @@ Below you will find the website's wireframes. These were generated using Balsami
 - Wireframes for the <a href="https://drive.google.com/file/d/1bCmX4HrQt4wVbTsTArFjPO-Wf3a5Vp_f/view?usp=sharing" rel="noopener" target="_blank">desktop & mobile version in PDF</a>.
 - Wireframes for the <a href="https://drive.google.com/file/d/1sfSxslhGBw88hK4E2KWCFZT2NFAwRp1U/view?usp=sharing" rel="noopener" target="_blank">desktop & mobile version in Balsamiq</a>.
 
+### 1.5 Design Decisions 🎨 🖌
+
+First and foremost, the essential elements that had to be in place were:
+
+- **Responsiveness**: The website has to be fully responsive and adapt to different screen sizes.
+- **Interactivity**: The site has to provide users with interactivity. With the ability to interact with it in different ways.
+- **Simplicity**: The website has to be simple, easy to navigate, read and interact.
+
+This project was developed to be presented as Milestone 2 for CI's Full Stack Software Development course. MS2 requires the explicit use of Javascript to provide site visitors with interactivity, so the decision was made to focus on a simple overall website, but with clear, interactive elements in it.
+
+
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
 <span id="features"></span>
