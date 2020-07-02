@@ -290,9 +290,18 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ### 6.1 Code Snippets 🧬
 
+- Knowledge for usage of Google Maps API: <a href="https://developers.google.com/maps/documentation/javascript/tutorial?hl=es" rel="noopener" target="_blank">Google Documentation</a>.
+- Inspiration for coding improvement on the Google Maps API: <a href="https://www.youtube.com/watch?v=Zxf1mnP5zcw" rel="noopener" target="_blank">Traversy Media</a>.
+- Inspiration for the converter: <a href="https://www.w3schools.com/howto/howto_js_length_converter.asp" rel="noopener" target="_blank">W3Schools</a>.
+- Inspiration for the contact form: <a href="https://github.com/betahope/resume-project" rel="noopener" target="_blank">Resume Project (Part of CI curriculum)</a>.
 
 ### 6.2 Media 📸
 
+- King Metric logo: <a href="https://drive.google.com/file/d/11uMF7-ZxtWjsPS5vrtC6LwDzR1vIIWox/view?usp=sharing" rel="noopener" target="_blank">Created with Keynote</a>.
+- Font Awesome icons: <a href="https://fontawesome.com/" rel="noopener" target="_blank">Font Awesome</a>.
+- Flags for Google Maps: <a href="https://www.iconfinder.com/iconsets/flags_gosquared" rel="noopener" target="_blank">IconFinder</a>.
+- Image with people measuring (France): <a href="https://en.wikipedia.org/wiki/Introduction_to_the_metric_system" rel="noopener" target="_blank">Wikipedia</a>.
+- Lato, Google Font: <a href="https://fonts.google.com/specimen/Lato?query=lato" rel="noopener" target="_blank">Lato</a>.
 
 ### 6.3 Acknowledgements 🙏
 
