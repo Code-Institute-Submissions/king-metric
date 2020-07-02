@@ -23,12 +23,11 @@
 This project presents information about the Metric System, where it came from, who is still using the Imperial System and a conversion tool, from Imperial to Metric only.
 
 One of the purposes of this project is to demonstrate the developer skills with JS. You will be able to see this in three sections of the website:
+* The converter.
+* The Google Maps API, where it shows the countries still using the Imperial System, and
+* The contact form, where EMailJS is used to send the messages.
 
-- The converter.
-- The Google Maps API, where it shows the countries still using the Imperial System, and
-- The contact form, where EMailJS is used to send the messages.
-
-_This is for educational purposes only._
+*This is for educational purposes only.*
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -99,6 +98,7 @@ First and foremost, the essential elements that had to be in place were:
 - **Simplicity**: The website has to be simple, easy to navigate, read and interact.
 
 This project was developed to be presented as Milestone 2 for CI's Full Stack Software Development course. MS2 requires the explicit use of Javascript to provide site visitors with interactivity, so the decision was made to focus on a simple overall website, but with clear, interactive elements in it.
+
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -206,7 +206,7 @@ Since the testing was ongoing, the results of it were many during that period. M
 - **CSS rules not working**: CDT used to review the reasons, detect the root of the problem and apply the fix back to the CSS rules.
 - **JS code not working**: Console used to review the potential reasons. Once possible solutions were detected, they were tested with the code and eventually fix the problem.
 
-#### 4.2.4 Outcomes.
+#### 4.2.4 Outcomes. 🚀
 
 The eventual outcome of each testing was detecting issues, evaluating the reasons and finding the solutions.
 
@@ -216,7 +216,52 @@ Once the root of each issue is detected, then the applied solution is coded into
 
 ### 4.3 Testing User Stories 🙆‍♀️
 
+Going over the user stories indicated in the UX section to ensure that they work as intended.
+
+1. Learn a bit more about the history of the Metric System.
+
+   1. Go to the "Origins" section through the top menu or by scrolling down the page.
+   2. Scroll down through the page to read the piece of history about the origins of the Metric System.
+   3. Learn with it that the French invented it between 1790 and 1800.
+   4. Learn with it that this was done during the French Revolution.
+   5. Try to accomplish the steps both on desktop and mobile views.
+
+2. Learn who is still officially using the Imperial System.
+
+   1. Go to the "The Others" section through the top menu or by scrolling down the page.
+   2. Scroll down through the page to read the piece of information about the countries that are still officially using the Imperial System.
+   3. Interact with the Google Maps, which highlights the three countries.
+   4. Learn with it that the USA, Myanmar and Liberia are the only countries still officially using the Imperial System.
+   5. Learn with it that the UK is not on that list. 😉 😉
+   6. Try to accomplish the steps both on desktop and mobile views.
+
+3. Convert Imperial measurements to the Metric System.
+
+   1. Go to the "Convert" section through the menu or footer button. The "Home" section also provides one additional buttons with the main content.
+   2. Change the property and check if the rest of the converter reacts to it (the unit selector must change).
+   3. Change the unit and check if the rest of the converter reacts to it.
+   4. Input a value in the input field and check if the converter reacts to it. (here is when the converter runs the conversion).
+   5. Maintain the inputed value and change a the property and unit selectors and check if the converter reacts to it, and recalculates.
+   6. Change the inputed value and check if the converter reacts to it by recalculating.
+   7. Click on the "Reset Converter" button and check if the the converter resets to its original values.
+   8. Try to accomplish the steps both on desktop and mobile views.
+
+4. Get in touch with the developer behind the project.
+
+   1. Go to the "Contact" section through the menu or footer options.
+   2. Try to submit an empty contact form and check that an error message about the required fields appears.
+   3. Try to submit the contact form with an invalid email address and check that the error message appears.
+   4. Try to submit the contact form with all inputs valid and check that the information is processed and a confirmation message is presented.
+   5. Try to submit the contact form with all inputs valid and check that a confirmation message is presented immediately after.
+   6. Try to acknowledge the confirmation message and check that the contact form is cleared.
+   7. Try to submit the contact form with all inputs valid and check that an email is sent with a confirmation of the message sent.
+   8. Try to accomplish the steps both on desktop and mobile views.
+
 ### 4.4 Bugs & Problems 🐛
+
+There were no brand-new or relevant bugs/problems during the development of this project.
+
+The usual suspects were always there because of my lack of experience and mistyping the code.
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -225,9 +270,10 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 ## 5. Deployment 🚀
 
 Carlos developed this project using Gitpod’s IDE. He pushed all developments to the corresponding repository inside his GitHub account.
+
 He followed the steps below:
 
-1. He first created the repository inside his GitHub account. <a href="https://github.com/betahope/king-metric" rel="noopener" target="_blank">Repor URL</a>.
+1. He first created the repository inside his GitHub account. <a href="https://github.com/betahope/king-metric" rel="noopener" target="_blank">Repo URL</a>.
 2. He launched the project on Gitpod from the repository, using Gitpod's Chrome extension.
 3. He continued his work and development on Gitpod.
 4. He pushed all relevant and significant changes to the repository, from Gitpod, regularly.
@@ -244,7 +290,9 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ### 6.1 Code Snippets 🧬
 
+
 ### 6.2 Media 📸
+
 
 ### 6.3 Acknowledgements 🙏
 
