@@ -94,7 +94,7 @@ Below you will find the website's wireframes. These were generated using Balsami
 First and foremost, the essential elements that had to be in place were:
 
 - **Responsiveness**: The website has to be fully responsive and adapt to different screen sizes.
-- **Interactivity**: The site has to provide users with interactivity. With the ability to interact with it in different ways.
+- **Interactivity**: The site has to provide users with interactivity and with more than just one type to demonstrate different managements of JS.
 - **Simplicity**: The website has to be simple, easy to navigate, read and interact.
 
 This project was developed to be presented as Milestone 2 for CI's Full Stack Software Development course. MS2 requires the explicit use of Javascript to provide site visitors with interactivity, so the decision was made to focus on a simple overall website, but with clear, interactive elements in it.
@@ -234,20 +234,20 @@ Going over the user stories indicated in the UX section to ensure that they work
 
    1. Go to the "The Others" section through the top menu or by scrolling down the page.
    2. Scroll down through the page to read the piece of information about the countries that are still officially using the Imperial System.
-   3. Interact with the Google Maps, which highlights the three countries.
+   3. Interact with Google Maps, which highlights the three countries.
    4. Learn with it that the USA, Myanmar and Liberia are the only countries still officially using the Imperial System.
    5. Learn with it that the UK is not on that list. 😉 😉
    6. Try to accomplish the steps both on desktop and mobile views.
 
 3. Convert Imperial measurements to the Metric System.
 
-   1. Go to the "Convert" section through the menu or footer button. The "Home" section also provides one additional buttons with the main content.
+   1. Go to the "Convert" section through the menu or footer button. The "Home" section also provides one additional button with the main content.
    2. Change the property and check if the rest of the converter reacts to it (the unit selector must change).
    3. Change the unit and check if the rest of the converter reacts to it.
    4. Input a value in the input field and check if the converter reacts to it. (here is when the converter runs the conversion).
-   5. Maintain the inputed value and change a the property and unit selectors and check if the converter reacts to it, and recalculates.
-   6. Change the inputed value and check if the converter reacts to it by recalculating.
-   7. Click on the "Reset Converter" button and check if the the converter resets to its original values.
+   5. Maintain the inputted value and change the property and unit selectors and check if the converter reacts to it, and recalculates.
+   6. Change the inputted value and check if the converter reacts to it by recalculating.
+   7. Click on the "Reset Converter" button and check if the converter resets to its original values.
    8. Try to accomplish the steps both on desktop and mobile views.
 
 4. Get in touch with the developer behind the project.
@@ -256,9 +256,9 @@ Going over the user stories indicated in the UX section to ensure that they work
    2. Try to submit an empty contact form and check that an error message about the required fields appears.
    3. Try to submit the contact form with an invalid email address and check that the error message appears.
    4. Try to submit the contact form with all inputs valid and check that the information is processed and a confirmation message is presented.
-   5. Try to submit the contact form with all inputs valid and check that a confirmation message is presented immediately after.
+   5. Try to submit the contact form with all inputs valid and verify that a confirmation message is presented immediately after.
    6. Try to acknowledge the confirmation message and check that the contact form is cleared.
-   7. Try to submit the contact form with all inputs valid and check that an email is sent with a confirmation of the message sent.
+   7. Try to submit the contact form with all inputs valid and verify that an email is sent with a confirmation of the message sent.
    8. Try to accomplish the steps both on desktop and mobile views.
 
 ### 4.4 Bugs & Problems 🐛
@@ -281,6 +281,7 @@ He followed the steps below:
 2. He launched the project on Gitpod from the repository, using Gitpod's Chrome extension.
 3. He continued his work and development on Gitpod.
 4. He pushed all relevant and significant changes to the repository, from Gitpod, regularly.
+5. Once the project was completed, he published the project using <a href="https://pages.github.com/" rel="noopener" target="_blank">GitHub Pages</a>.
 
 There are no differences between the deployed and the developed version. Carlos used one branch: master.
 
