@@ -23,11 +23,12 @@
 This project presents information about the Metric System, where it came from, who is still using the Imperial System and a conversion tool, from Imperial to Metric only.
 
 One of the purposes of this project is to demonstrate the developer skills with JS. You will be able to see this in three sections of the website:
-* The converter.
-* The Google Maps API, where it shows the countries still using the Imperial System, and
-* The contact form, where EMailJS is used to send the messages.
 
-*This is for educational purposes only.*
+- The converter.
+- The Google Maps API, where it shows the countries still using the Imperial System, and
+- The contact form, where EMailJS is used to send the messages.
+
+_This is for educational purposes only._
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -98,7 +99,6 @@ First and foremost, the essential elements that had to be in place were:
 - **Simplicity**: The website has to be simple, easy to navigate, read and interact.
 
 This project was developed to be presented as Milestone 2 for CI's Full Stack Software Development course. MS2 requires the explicit use of Javascript to provide site visitors with interactivity, so the decision was made to focus on a simple overall website, but with clear, interactive elements in it.
-
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -173,11 +173,41 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 - <a href="https://en.wikipedia.org/wiki/IPad_(2017)" rel="noopener" target="_blank">**iPad (5th Generation)**</a>
   - The project used an **iPad (5th Generation)** mobile device to test the website in a real mobile environment.
 
-### 4.2 Testing User Stories 🙆‍♀️
+### 4.2 Testing Planning ✅
 
+Details about how testing was conducted and the outcomes.
 
-### 4.3 Bugs & Problems 🐛
+#### 4.2.1 Planning. 📑
 
+The developer decided that testing was going to be conducted in parallel with the project development, which means that regularly, during the development of the project, the developer used Chrome DevTools to test the behaviour of the project both in desktop and mobile views.
+
+The JS interactive elements were tested with its development, to make sure that the code was providing the expected outcomes consistently.
+
+Testing the project in mobile devices was conducted towards the project's end, and only once all main sections were implemented and tested with CDT.
+
+#### 4.2.2 Implementation. 🔨
+
+As indicated above, JSFiddle and CDT were the main tools used to test the project regularly.
+
+Here's how this looked like:
+
+- Chrome browser was used as the primary tool.
+- On one tab, Gitpod open with the project.
+- On a second tab, the preview of the project, using the "python3" method inside Gitpod.
+- On that second tab, CDT open to visualise and test styles, and use the console.
+- On a third tab, JSFiddle to check the JS codes and snippets.
+
+Once the project had finished, and the Github repository was live using Github pages, the project was tested with the mobile devices mentioned above.
+
+#### 4.2.3 Results. 📊
+
+Since the
+
+#### 4.2.4 Outcomes.
+
+### 4.3 Testing User Stories 🙆‍♀️
+
+### 4.4 Bugs & Problems 🐛
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -205,9 +235,7 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ### 6.1 Code Snippets 🧬
 
-
 ### 6.2 Media 📸
-
 
 ### 6.3 Acknowledgements 🙏
 
