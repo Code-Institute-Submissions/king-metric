@@ -1,3 +1,6 @@
+// This was the original code used for the function ValueConverter(). It worked fine. However, it was not optimal.
+// After refactoting, the outcome is what you can see in the file valueConvert.js.
+
 function ValueConverter() {
   const enteredValue = parseInt(document.getElementById("inputValue").value);
   const unit = document.getElementById("units").value;
