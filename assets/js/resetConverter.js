@@ -15,6 +15,6 @@ function ResetConverter() {
 
   //Reset calculation result message
   document.getElementById("unitConverted").innerHTML =
-    "<p>Please, enter a value to be converted! 🙏🏼</p>";
+    "<p>Enter a value to be converted. 🙏🏼</p>";
   return;
 }
