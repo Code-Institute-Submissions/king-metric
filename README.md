@@ -321,6 +321,8 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 - Background image in Hero section: <a href="https://www.pexels.com/photo/white-10-feet-steel-tape-162500/" rel="noopener" target="_blank">Pexels</a>.
 - King Metric logo: <a href="https://drive.google.com/file/d/11uMF7-ZxtWjsPS5vrtC6LwDzR1vIIWox/view?usp=sharing" rel="noopener" target="_blank">Created with Keynote</a>.
+- Content for "Origins" section: <a href="https://en.wikipedia.org/wiki/Introduction_to_the_metric_system" rel="noopener" target="_blank">Wikipedia</a>.
+- Content for "The Others" section: <a href="https://www.worldatlas.com/articles/which-countries-use-the-imperial-system.html" rel="noopener" target="_blank">WorldAtlas</a>.
 - Font Awesome icons: <a href="https://fontawesome.com/" rel="noopener" target="_blank">Font Awesome</a>.
 - Flags for Google Maps: <a href="https://www.iconfinder.com/iconsets/flags_gosquared" rel="noopener" target="_blank">IconFinder</a>.
 - Image with people measuring (France): <a href="https://en.wikipedia.org/wiki/Introduction_to_the_metric_system" rel="noopener" target="_blank">Wikipedia</a>.
