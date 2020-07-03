@@ -315,6 +315,7 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 - Inspiration for coding improvement on the Google Maps API: <a href="https://www.youtube.com/watch?v=Zxf1mnP5zcw" rel="noopener" target="_blank">Traversy Media</a>.
 - Inspiration for the converter: <a href="https://www.w3schools.com/howto/howto_js_length_converter.asp" rel="noopener" target="_blank">W3Schools</a>.
 - Inspiration for the contact form: <a href="https://github.com/betahope/resume-project" rel="noopener" target="_blank">Resume Project (Part of CI curriculum)</a>.
+- Inspiration for the fraction number in Hero section: <a href="https://stackoverflow.com/questions/7525977/how-to-write-fraction-value-using-html" rel="noopener" target="_blank">Stack Overflow</a>.
 
 ### 6.2 Media 📸
 
