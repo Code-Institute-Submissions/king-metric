@@ -440,4 +440,13 @@ footer .footer-logo a:hover {
   .origins img {
     margin-bottom: -1rem;
   }
+
+  .hero-index {
+    background-size: auto 100%;
+    background-position: center;
+  }
+
+  .hero {
+    background-attachment: scroll;
+  }
 }
