@@ -23,12 +23,11 @@
 This project presents information about the Metric System, where it came from, who is still using the Imperial System and a conversion tool, from Imperial to Metric only.
 
 One of the purposes of this project is to demonstrate the developer skills with JS. You will be able to see this in three sections of the website:
+* The converter.
+* The Google Maps API, where it shows the countries still using the Imperial System, and
+* The contact form, where EMailJS is used to send the messages.
 
-- The converter.
-- The Google Maps API, where it shows the countries still using the Imperial System, and
-- The contact form, where EMailJS is used to send the messages.
-
-_This is for educational purposes only._
+*This is for educational purposes only.*
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -100,6 +99,7 @@ First and foremost, the essential elements that had to be in place were:
 
 This project was developed to be presented as Milestone 2 for CI's Full Stack Software Development course. MS2 requires the explicit use of Javascript to provide site visitors with interactivity, so the decision was made to focus on a simple overall website, but with clear, interactive elements in it.
 
+
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
 <span id="features"></span>
@@ -152,6 +152,10 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 - <a href="https://autoprefixer.github.io/" rel="noopener" target="_blank">**Auto-Prefixer**</a>
   - The project used the **Auto-Prefixer** to add CSS compatibility with other browsers.
+- <a href="http://jigsaw.w3.org/css-validator/" rel="noopener" target="_blank">**W3C CSS Validation Service**</a>
+  - The project used the **W3C CSS Validation Service** to validate the CSS code.
+- <a href="https://validator.w3.org/" rel="noopener" target="_blank">**W3C Markup Validation Service**</a>
+  - The project used the **W3C Markup Validation Service** to validate the HTML code.
 - <a href="https://hackmd.io/" rel="noopener" target="_blank">**HackMD**</a>
   - The project used the **HackMD** to edit the README file.
 - <a href="https://developers.google.com/maps/documentation" rel="noopener" target="_blank">**Google Maps API**</a>
