@@ -156,11 +156,11 @@ header {
       from(rgba(0, 0, 0, 0.5)),
       to(rgba(0, 0, 0, 0.5))
     ),
-    url("https://i.imgur.com/Mk6B3kC.jpg");
+    url(../media/hero_image.jpg);
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://i.imgur.com/Mk6B3kC.jpg");
+    url(../media/hero_image.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://i.imgur.com/Mk6B3kC.jpg");
+    url(../media/hero_image.jpg);
 }
 
 .hero {
