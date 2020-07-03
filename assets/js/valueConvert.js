@@ -24,11 +24,11 @@ function ValueConverter() {
 
   if (!enteredValue) {
     document.getElementById("unitConverted").innerHTML =
-      "<p>Please, enter a value to be converted! 🙏🏼</p>";
+      "<p>Enter a value to be converted. 🙏🏼</p>";
   } else {
-    document.getElementById("unitConverted").innerHTML = `<p>${(
+    document.getElementById("unitConverted").innerHTML = `<p><strong>${(
       enteredValue * convertConstant[selectedUnit]
-    ).toFixed(2)}&nbsp; 🎉</p>`;
+    ).toFixed(2)}</strong>&nbsp; 🎉</p>`;
   }
   return;
 }
