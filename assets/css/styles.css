@@ -304,7 +304,7 @@ span.frac > sub {
 
 .bg-footer {
   background: var(--brand-title-color);
-  width: 100%;
+  width: 100vw;
   height: 150%;
   padding-top: 1rem;
   padding-bottom: 1rem;
