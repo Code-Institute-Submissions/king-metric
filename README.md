@@ -23,11 +23,12 @@
 This project presents information about the Metric System, where it came from, who is still using the Imperial System and a conversion tool, from Imperial to Metric only.
 
 One of the purposes of this project is to demonstrate the developer skills with JS. You will be able to see this in three sections of the website:
-* The converter.
-* The Google Maps API, where it shows the countries still using the Imperial System, and
-* The contact form, where EMailJS is used to send the messages.
 
-*This is for educational purposes only.*
+- The converter.
+- The Google Maps API, where it shows the countries still using the Imperial System, and
+- The contact form, where EMailJS is used to send the messages.
+
+_This is for educational purposes only._
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -98,7 +99,6 @@ First and foremost, the essential elements that had to be in place were:
 - **Simplicity**: The website has to be simple, easy to navigate, read and interact.
 
 This project was developed to be presented as Milestone 2 for CI's Full Stack Software Development course. MS2 requires the explicit use of Javascript to provide site visitors with interactivity, so the decision was made to focus on a simple overall website, but with clear, interactive elements in it.
-
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
