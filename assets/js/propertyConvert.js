@@ -1,4 +1,5 @@
 function PropertyConverter() {
+  // Variable containing the unit options depending on the property.
   const convertedOptions = {
     length:
       '<option value="inch">Inch</option><option value="foot">Foot</option><option value="yard">Yard</option><option value="mile">Mile</option>',
@@ -10,8 +11,10 @@ function PropertyConverter() {
       '<option value="ounce">Ounce</option><option value="pound">Pound</option><option value="stone">Stone</option><option value="ton">Ton</option>',
   };
 
+  // Taking the selected property.
   const selectedProperty = document.getElementById("properties").value;
 
+  //Changing the options in the unit selector according to the selected property.
   document.getElementById("units").innerHTML =
     convertedOptions[selectedProperty];
 

@@ -1,4 +1,5 @@
 function ValueConverter() {
+  // Variable containing the converting constants depending on the imperial unit.
   const convertConstant = {
     inch: 2.54,
     foot: 0.3048,
@@ -18,10 +19,13 @@ function ValueConverter() {
     ton: 1.016,
   };
 
+  // Taking the inputted value by the user.
   const enteredValue = parseInt(document.getElementById("inputValue").value);
 
+  //Taking the selected unit.
   const selectedUnit = document.getElementById("units").value;
 
+  // Calculating the conversion using the inputted value, depending on the unit selected and its conversion constant.
   if (!enteredValue) {
     document.getElementById("unitConverted").innerHTML =
       "<p>Enter a value to be converted. 🙏🏼</p>";

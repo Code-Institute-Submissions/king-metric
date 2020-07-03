@@ -1,4 +1,5 @@
 function UnitConverter() {
+  // Variable containing the metric unit name depending on the imperial unit.
   const convertedName = {
     inch: "Centimetre(s):",
     foot: "Metre(s):",
@@ -18,8 +19,10 @@ function UnitConverter() {
     ton: "Tonne(s):",
   };
 
+  // Taking the selected unit.
   const selectedUnit = document.getElementById("units").value;
 
+  // Updating the name of the metric unit depending on the imperial unit selected.
   document.getElementById("metricUnit").innerText = convertedName[selectedUnit];
 
   ValueConverter();
