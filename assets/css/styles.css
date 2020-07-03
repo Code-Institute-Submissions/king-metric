@@ -300,6 +300,11 @@ span.frac > sub {
   padding-right: 1rem;
 }
 
+form {
+  width: 75%;
+  margin: 0 auto;
+}
+
 /* ------------------------- Footer */
 
 .bg-footer {
@@ -397,6 +402,10 @@ footer .footer-logo a:hover {
   .convert input {
     text-align: center;
   }
+
+  form {
+    width: 90%;
+  }
 }
 
 /* For Tablets */
@@ -448,5 +457,9 @@ footer .footer-logo a:hover {
 
   .hero {
     background-attachment: scroll;
+  }
+
+  form {
+    width: 90%;
   }
 }
