@@ -23,12 +23,11 @@
 This project presents information about the Metric System, where it came from, who is still using the Imperial System and a conversion tool, from Imperial to Metric only.
 
 One of the purposes of this project is to demonstrate the developer skills with JS. You will be able to see this in three sections of the website:
+* The converter.
+* The Google Maps API, where it shows the countries still using the Imperial System, and
+* The contact form, where EMailJS is used to send the messages.
 
-- The converter.
-- The Google Maps API, where it shows the countries still using the Imperial System, and
-- The contact form, where EMailJS is used to send the messages.
-
-_This is for educational purposes only._
+*This is for educational purposes only.*
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -99,6 +98,7 @@ First and foremost, the essential elements that had to be in place were:
 - **Simplicity**: The website has to be simple, easy to navigate, read and interact.
 
 This project was developed to be presented as Milestone 2 for CI's Full Stack Software Development course. MS2 requires the explicit use of Javascript to provide site visitors with interactivity, so the decision was made to focus on a simple overall website, but with clear, interactive elements in it.
+
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
@@ -286,6 +286,18 @@ He followed the steps below:
 There are no differences between the deployed and the developed version. Carlos used one branch: master.
 
 You can run and view the project by following this URL: <a href="https://betahope.github.io/king-metric/" rel="noopener" target="_blank">View Project</a>.
+
+### 5.1 Refactoring 🎛
+
+Once all JS code was fully tested and everything was working as intended, it was time for refactoring, because the original codes were not optimal.
+
+The following functions were refactored:
+
+- PropertyConverter() in file propertyConvert.js.
+- UnitConverter() in file unitConvert.js.
+- ValueConverter() in file valueConvert.js.
+
+The original codes were saved in a folder called "beforeRefactoring", inside assets/js. This was done to enable easy access to those versions if needed.
 
 _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a></p></div>_
 
