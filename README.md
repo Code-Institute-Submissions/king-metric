@@ -319,6 +319,7 @@ _<div align="right"><p style="text-align: right"><a href="#top">Back to top</a><
 
 ### 6.2 Media 📸
 
+- Background image in Hero section: <a href="https://www.pexels.com/photo/white-10-feet-steel-tape-162500/" rel="noopener" target="_blank">Pexels</a>.
 - King Metric logo: <a href="https://drive.google.com/file/d/11uMF7-ZxtWjsPS5vrtC6LwDzR1vIIWox/view?usp=sharing" rel="noopener" target="_blank">Created with Keynote</a>.
 - Font Awesome icons: <a href="https://fontawesome.com/" rel="noopener" target="_blank">Font Awesome</a>.
 - Flags for Google Maps: <a href="https://www.iconfinder.com/iconsets/flags_gosquared" rel="noopener" target="_blank">IconFinder</a>.
